@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B088E3681DB8C97900B12007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B088E3671DB8C97900B12007 /* AppDelegate.swift */; };
+		B088E36A1DB8C97900B12007 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B088E3691DB8C97900B12007 /* ViewController.swift */; };
+		B088E36D1DB8C97900B12007 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B088E36B1DB8C97900B12007 /* Main.storyboard */; };
+		B088E36F1DB8C97900B12007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B088E36E1DB8C97900B12007 /* Assets.xcassets */; };
+		B088E3721DB8C97900B12007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B088E3701DB8C97900B12007 /* LaunchScreen.storyboard */; };
+		B088E3811DB8C9AA00B12007 /* Adlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B088E3791DB8C9AA00B12007 /* Adlib.framework */; };
+		B088E3821DB8C9AA00B12007 /* Adlib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B088E37B1DB8C9AA00B12007 /* Adlib.bundle */; };
+		B088E3831DB8C9AA00B12007 /* _TriDCommon.lua in Resources */ = {isa = PBXBuildFile; fileRef = B088E37D1DB8C9AA00B12007 /* _TriDCommon.lua */; };
+		B088E3841DB8C9AA00B12007 /* _TriDDynamicData.lua in Resources */ = {isa = PBXBuildFile; fileRef = B088E37E1DB8C9AA00B12007 /* _TriDDynamicData.lua */; };
+		B088E3851DB8C9AA00B12007 /* _TriDStartup.lua in Resources */ = {isa = PBXBuildFile; fileRef = B088E37F1DB8C9AA00B12007 /* _TriDStartup.lua */; };
+		B088E3861DB8C9AA00B12007 /* json.lua in Resources */ = {isa = PBXBuildFile; fileRef = B088E3801DB8C9AA00B12007 /* json.lua */; };
+		B088E3891DB8C9CE00B12007 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B088E3881DB8C9CE00B12007 /* libstdc++.6.0.9.tbd */; };
+		B088E38B1DB8C9D900B12007 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B088E38A1DB8C9D900B12007 /* libxml2.2.tbd */; };
+		B088E3901DB8CA5000B12007 /* ObjcClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B088E38F1DB8CA5000B12007 /* ObjcClass.m */; };
+		B088E3B11DB9A25200B12007 /* SubAdlibAdViewAdmob.m in Sources */ = {isa = PBXBuildFile; fileRef = B088E39B1DB9A25200B12007 /* SubAdlibAdViewAdmob.m */; };
+		B088E3BC1DB9A28200B12007 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B088E3BB1DB9A28200B12007 /* GoogleMobileAds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B088E3641DB8C97900B12007 /* AdlibSDKSwift3_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdlibSDKSwift3_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B088E3671DB8C97900B12007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B088E3691DB8C97900B12007 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B088E36C1DB8C97900B12007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B088E36E1DB8C97900B12007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B088E3711DB8C97900B12007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B088E3731DB8C97900B12007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B088E3791DB8C9AA00B12007 /* Adlib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adlib.framework; sourceTree = "<group>"; };
+		B088E37B1DB8C9AA00B12007 /* Adlib.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Adlib.bundle; sourceTree = "<group>"; };
+		B088E37D1DB8C9AA00B12007 /* _TriDCommon.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _TriDCommon.lua; sourceTree = "<group>"; };
+		B088E37E1DB8C9AA00B12007 /* _TriDDynamicData.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _TriDDynamicData.lua; sourceTree = "<group>"; };
+		B088E37F1DB8C9AA00B12007 /* _TriDStartup.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _TriDStartup.lua; sourceTree = "<group>"; };
+		B088E3801DB8C9AA00B12007 /* json.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json.lua; sourceTree = "<group>"; };
+		B088E3881DB8C9CE00B12007 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		B088E38A1DB8C9D900B12007 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		B088E38D1DB8CA4F00B12007 /* AdlibSDKSwift3_Sample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdlibSDKSwift3_Sample-Bridging-Header.h"; sourceTree = "<group>"; };
+		B088E38E1DB8CA5000B12007 /* ObjcClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcClass.h; sourceTree = "<group>"; };
+		B088E38F1DB8CA5000B12007 /* ObjcClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcClass.m; sourceTree = "<group>"; };
+		B088E39A1DB9A25200B12007 /* SubAdlibAdViewAdmob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubAdlibAdViewAdmob.h; sourceTree = "<group>"; };
+		B088E39B1DB9A25200B12007 /* SubAdlibAdViewAdmob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubAdlibAdViewAdmob.m; sourceTree = "<group>"; };
+		B088E3BB1DB9A28200B12007 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B088E3611DB8C97900B12007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B088E38B1DB8C9D900B12007 /* libxml2.2.tbd in Frameworks */,
+				B088E3891DB8C9CE00B12007 /* libstdc++.6.0.9.tbd in Frameworks */,
+				B088E3BC1DB9A28200B12007 /* GoogleMobileAds.framework in Frameworks */,
+				B088E3811DB8C9AA00B12007 /* Adlib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B088E35B1DB8C97900B12007 = {
+			isa = PBXGroup;
+			children = (
+				B088E3661DB8C97900B12007 /* AdlibSDKSwift3_Sample */,
+				B088E3651DB8C97900B12007 /* Products */,
+				B088E3871DB8C9CE00B12007 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B088E3651DB8C97900B12007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B088E3641DB8C97900B12007 /* AdlibSDKSwift3_Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B088E3661DB8C97900B12007 /* AdlibSDKSwift3_Sample */ = {
+			isa = PBXGroup;
+			children = (
+				B088E3791DB8C9AA00B12007 /* Adlib.framework */,
+				B088E3BB1DB9A28200B12007 /* GoogleMobileAds.framework */,
+				B088E3911DB9A25200B12007 /* ads */,
+				B088E38C1DB8CA2B00B12007 /* OBJC */,
+				B088E37A1DB8C9AA00B12007 /* ADLibFramework */,
+				B088E3671DB8C97900B12007 /* AppDelegate.swift */,
+				B088E3691DB8C97900B12007 /* ViewController.swift */,
+				B088E36B1DB8C97900B12007 /* Main.storyboard */,
+				B088E36E1DB8C97900B12007 /* Assets.xcassets */,
+				B088E3701DB8C97900B12007 /* LaunchScreen.storyboard */,
+				B088E3731DB8C97900B12007 /* Info.plist */,
+			);
+			path = AdlibSDKSwift3_Sample;
+			sourceTree = "<group>";
+		};
+		B088E37A1DB8C9AA00B12007 /* ADLibFramework */ = {
+			isa = PBXGroup;
+			children = (
+				B088E37B1DB8C9AA00B12007 /* Adlib.bundle */,
+				B088E37C1DB8C9AA00B12007 /* Resources */,
+			);
+			path = ADLibFramework;
+			sourceTree = "<group>";
+		};
+		B088E37C1DB8C9AA00B12007 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B088E37D1DB8C9AA00B12007 /* _TriDCommon.lua */,
+				B088E37E1DB8C9AA00B12007 /* _TriDDynamicData.lua */,
+				B088E37F1DB8C9AA00B12007 /* _TriDStartup.lua */,
+				B088E3801DB8C9AA00B12007 /* json.lua */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B088E3871DB8C9CE00B12007 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B088E38A1DB8C9D900B12007 /* libxml2.2.tbd */,
+				B088E3881DB8C9CE00B12007 /* libstdc++.6.0.9.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B088E38C1DB8CA2B00B12007 /* OBJC */ = {
+			isa = PBXGroup;
+			children = (
+				B088E38E1DB8CA5000B12007 /* ObjcClass.h */,
+				B088E38F1DB8CA5000B12007 /* ObjcClass.m */,
+				B088E38D1DB8CA4F00B12007 /* AdlibSDKSwift3_Sample-Bridging-Header.h */,
+			);
+			name = OBJC;
+			sourceTree = "<group>";
+		};
+		B088E3911DB9A25200B12007 /* ads */ = {
+			isa = PBXGroup;
+			children = (
+				B088E3921DB9A25200B12007 /* adlib.mocoplex */,
+			);
+			path = ads;
+			sourceTree = "<group>";
+		};
+		B088E3921DB9A25200B12007 /* adlib.mocoplex */ = {
+			isa = PBXGroup;
+			children = (
+				B088E3931DB9A25200B12007 /* SubAdView */,
+			);
+			path = adlib.mocoplex;
+			sourceTree = "<group>";
+		};
+		B088E3931DB9A25200B12007 /* SubAdView */ = {
+			isa = PBXGroup;
+			children = (
+				B088E39A1DB9A25200B12007 /* SubAdlibAdViewAdmob.h */,
+				B088E39B1DB9A25200B12007 /* SubAdlibAdViewAdmob.m */,
+			);
+			path = SubAdView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B088E3631DB8C97900B12007 /* AdlibSDKSwift3_Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B088E3761DB8C97900B12007 /* Build configuration list for PBXNativeTarget "AdlibSDKSwift3_Sample" */;
+			buildPhases = (
+				B088E3601DB8C97900B12007 /* Sources */,
+				B088E3611DB8C97900B12007 /* Frameworks */,
+				B088E3621DB8C97900B12007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdlibSDKSwift3_Sample;
+			productName = AdlibSDKSwift3_Sample;
+			productReference = B088E3641DB8C97900B12007 /* AdlibSDKSwift3_Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B088E35C1DB8C97900B12007 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = gskang;
+				TargetAttributes = {
+					B088E3631DB8C97900B12007 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CWXRLAGBKX;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B088E35F1DB8C97900B12007 /* Build configuration list for PBXProject "AdlibSDKSwift3_Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B088E35B1DB8C97900B12007;
+			productRefGroup = B088E3651DB8C97900B12007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B088E3631DB8C97900B12007 /* AdlibSDKSwift3_Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B088E3621DB8C97900B12007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B088E3821DB8C9AA00B12007 /* Adlib.bundle in Resources */,
+				B088E3841DB8C9AA00B12007 /* _TriDDynamicData.lua in Resources */,
+				B088E3861DB8C9AA00B12007 /* json.lua in Resources */,
+				B088E3831DB8C9AA00B12007 /* _TriDCommon.lua in Resources */,
+				B088E3721DB8C97900B12007 /* LaunchScreen.storyboard in Resources */,
+				B088E3851DB8C9AA00B12007 /* _TriDStartup.lua in Resources */,
+				B088E36F1DB8C97900B12007 /* Assets.xcassets in Resources */,
+				B088E36D1DB8C97900B12007 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B088E3601DB8C97900B12007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B088E3B11DB9A25200B12007 /* SubAdlibAdViewAdmob.m in Sources */,
+				B088E36A1DB8C97900B12007 /* ViewController.swift in Sources */,
+				B088E3901DB8CA5000B12007 /* ObjcClass.m in Sources */,
+				B088E3681DB8C97900B12007 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B088E36B1DB8C97900B12007 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B088E36C1DB8C97900B12007 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B088E3701DB8C97900B12007 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B088E3711DB8C97900B12007 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B088E3741DB8C97900B12007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B088E3751DB8C97900B12007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B088E3771DB8C97900B12007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = CWXRLAGBKX;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdlibSDKSwift3_Sample",
+				);
+				INFOPLIST_FILE = AdlibSDKSwift3_Sample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adlibr.AdlibSDKSwift3-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AdlibSDKSwift3_Sample/AdlibSDKSwift3_Sample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B088E3781DB8C97900B12007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = CWXRLAGBKX;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdlibSDKSwift3_Sample",
+				);
+				INFOPLIST_FILE = AdlibSDKSwift3_Sample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adlibr.AdlibSDKSwift3-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AdlibSDKSwift3_Sample/AdlibSDKSwift3_Sample-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B088E35F1DB8C97900B12007 /* Build configuration list for PBXProject "AdlibSDKSwift3_Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B088E3741DB8C97900B12007 /* Debug */,
+				B088E3751DB8C97900B12007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B088E3761DB8C97900B12007 /* Build configuration list for PBXNativeTarget "AdlibSDKSwift3_Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B088E3771DB8C97900B12007 /* Debug */,
+				B088E3781DB8C97900B12007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B088E35C1DB8C97900B12007 /* Project object */;
+}
