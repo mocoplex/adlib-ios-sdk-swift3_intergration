@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B00921AF1DF52C45002C0B6C /* Adlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00921AE1DF52C45002C0B6C /* Adlib.framework */; };
 		B088E3681DB8C97900B12007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B088E3671DB8C97900B12007 /* AppDelegate.swift */; };
 		B088E36A1DB8C97900B12007 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B088E3691DB8C97900B12007 /* ViewController.swift */; };
 		B088E36D1DB8C97900B12007 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B088E36B1DB8C97900B12007 /* Main.storyboard */; };
 		B088E36F1DB8C97900B12007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B088E36E1DB8C97900B12007 /* Assets.xcassets */; };
 		B088E3721DB8C97900B12007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B088E3701DB8C97900B12007 /* LaunchScreen.storyboard */; };
-		B088E3811DB8C9AA00B12007 /* Adlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B088E3791DB8C9AA00B12007 /* Adlib.framework */; };
 		B088E3821DB8C9AA00B12007 /* Adlib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B088E37B1DB8C9AA00B12007 /* Adlib.bundle */; };
 		B088E3831DB8C9AA00B12007 /* _TriDCommon.lua in Resources */ = {isa = PBXBuildFile; fileRef = B088E37D1DB8C9AA00B12007 /* _TriDCommon.lua */; };
 		B088E3841DB8C9AA00B12007 /* _TriDDynamicData.lua in Resources */ = {isa = PBXBuildFile; fileRef = B088E37E1DB8C9AA00B12007 /* _TriDDynamicData.lua */; };
@@ -26,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B00921AE1DF52C45002C0B6C /* Adlib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adlib.framework; sourceTree = "<group>"; };
 		B088E3641DB8C97900B12007 /* AdlibSDKSwift3_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdlibSDKSwift3_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B088E3671DB8C97900B12007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B088E3691DB8C97900B12007 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,7 +34,6 @@
 		B088E36E1DB8C97900B12007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B088E3711DB8C97900B12007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B088E3731DB8C97900B12007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B088E3791DB8C9AA00B12007 /* Adlib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adlib.framework; sourceTree = "<group>"; };
 		B088E37B1DB8C9AA00B12007 /* Adlib.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Adlib.bundle; sourceTree = "<group>"; };
 		B088E37D1DB8C9AA00B12007 /* _TriDCommon.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _TriDCommon.lua; sourceTree = "<group>"; };
 		B088E37E1DB8C9AA00B12007 /* _TriDDynamicData.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _TriDDynamicData.lua; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 				B088E38B1DB8C9D900B12007 /* libxml2.2.tbd in Frameworks */,
 				B088E3891DB8C9CE00B12007 /* libstdc++.6.0.9.tbd in Frameworks */,
 				B088E3BC1DB9A28200B12007 /* GoogleMobileAds.framework in Frameworks */,
-				B088E3811DB8C9AA00B12007 /* Adlib.framework in Frameworks */,
+				B00921AF1DF52C45002C0B6C /* Adlib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +84,7 @@
 		B088E3661DB8C97900B12007 /* AdlibSDKSwift3_Sample */ = {
 			isa = PBXGroup;
 			children = (
-				B088E3791DB8C9AA00B12007 /* Adlib.framework */,
+				B00921AE1DF52C45002C0B6C /* Adlib.framework */,
 				B088E3BB1DB9A28200B12007 /* GoogleMobileAds.framework */,
 				B088E3911DB9A25200B12007 /* ads */,
 				B088E38C1DB8CA2B00B12007 /* OBJC */,
@@ -190,7 +190,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = gskang;
 				TargetAttributes = {
 					B088E3631DB8C97900B12007 = {
@@ -289,6 +289,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -339,6 +340,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -426,6 +428,7 @@
 				B088E3781DB8C97900B12007 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
