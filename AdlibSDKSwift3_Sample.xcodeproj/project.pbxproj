@@ -23,6 +23,7 @@
 		B088E3901DB8CA5000B12007 /* ObjcClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B088E38F1DB8CA5000B12007 /* ObjcClass.m */; };
 		B088E3B11DB9A25200B12007 /* SubAdlibAdViewAdmob.m in Sources */ = {isa = PBXBuildFile; fileRef = B088E39B1DB9A25200B12007 /* SubAdlibAdViewAdmob.m */; };
 		B088E3BC1DB9A28200B12007 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B088E3BB1DB9A28200B12007 /* GoogleMobileAds.framework */; };
+		B0B051591E1399DC00B9AF94 /* Adlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B051581E1399DC00B9AF94 /* Adlib.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		B088E39A1DB9A25200B12007 /* SubAdlibAdViewAdmob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubAdlibAdViewAdmob.h; sourceTree = "<group>"; };
 		B088E39B1DB9A25200B12007 /* SubAdlibAdViewAdmob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubAdlibAdViewAdmob.m; sourceTree = "<group>"; };
 		B088E3BB1DB9A28200B12007 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		B0B051581E1399DC00B9AF94 /* Adlib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adlib.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0B051591E1399DC00B9AF94 /* Adlib.framework in Frameworks */,
 				B088E38B1DB8C9D900B12007 /* libxml2.2.tbd in Frameworks */,
 				B088E3891DB8C9CE00B12007 /* libstdc++.6.0.9.tbd in Frameworks */,
 				B088E3BC1DB9A28200B12007 /* GoogleMobileAds.framework in Frameworks */,
@@ -102,6 +105,7 @@
 		B088E37A1DB8C9AA00B12007 /* ADLibFramework */ = {
 			isa = PBXGroup;
 			children = (
+				B0B051581E1399DC00B9AF94 /* Adlib.framework */,
 				B088E37B1DB8C9AA00B12007 /* Adlib.bundle */,
 				B088E37C1DB8C9AA00B12007 /* Resources */,
 			);
@@ -376,6 +380,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AdlibSDKSwift3_Sample",
+					"$(PROJECT_DIR)/AdlibSDKSwift3_Sample/ADLibFramework",
 				);
 				INFOPLIST_FILE = AdlibSDKSwift3_Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -398,6 +403,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AdlibSDKSwift3_Sample",
+					"$(PROJECT_DIR)/AdlibSDKSwift3_Sample/ADLibFramework",
 				);
 				INFOPLIST_FILE = AdlibSDKSwift3_Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
