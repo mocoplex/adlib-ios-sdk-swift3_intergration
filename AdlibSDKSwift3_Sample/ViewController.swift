@@ -14,20 +14,25 @@ class ViewController: UIViewController, AdlibManagerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.automaticallyAdjustsScrollViewInsets = false
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
 
-
     override func viewDidAppear(_ animated: Bool) {
+        
+        super.viewDidAppear(animated)
         
         let sharedManager: AdlibManager = AdlibManager.sharedSingletonClass()
         sharedManager.attach(self, with: adView, with: self)
     }
     
     override func viewDidDisappear(_ animated: Bool) {
+        
+        super.viewDidDisappear(animated)
         
         let sharedManager: AdlibManager = AdlibManager.sharedSingletonClass()
         sharedManager.detach(self)

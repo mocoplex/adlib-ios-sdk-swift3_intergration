@@ -9,7 +9,7 @@
 #import <Adlib/ADLibSDK.h>
 
 /**
- *  미디에이션 서브뷰, 사용할것만 추가
+ *  구버전 미디에이션 서브뷰, 사용할것만 추가
  */
 #import "SubAdlibAdViewAdmob.h"
 //#import "SubAdlibAdViewAdam.h"            //테스트 완료 v.2.3.1
@@ -26,3 +26,8 @@
 //#import "SubAdlibAdViewShallWeAd.h"
 //#import "SubAdlibAdViewAdHub.h"
 //#import "SubAdlibAdViewFacebook.h"
+
+/**
+ *  신규 버전 미디에이션 서브뷰, 사용할것만 추가
+ */
+#import "ALAdapterAdmob.h"

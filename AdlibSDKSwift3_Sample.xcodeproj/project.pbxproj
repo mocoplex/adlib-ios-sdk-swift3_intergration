@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B00921AF1DF52C45002C0B6C /* Adlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00921AE1DF52C45002C0B6C /* Adlib.framework */; };
 		B088E3681DB8C97900B12007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B088E3671DB8C97900B12007 /* AppDelegate.swift */; };
 		B088E36A1DB8C97900B12007 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B088E3691DB8C97900B12007 /* ViewController.swift */; };
 		B088E36D1DB8C97900B12007 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B088E36B1DB8C97900B12007 /* Main.storyboard */; };
 		B088E36F1DB8C97900B12007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B088E36E1DB8C97900B12007 /* Assets.xcassets */; };
 		B088E3721DB8C97900B12007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B088E3701DB8C97900B12007 /* LaunchScreen.storyboard */; };
-		B088E3821DB8C9AA00B12007 /* Adlib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B088E37B1DB8C9AA00B12007 /* Adlib.bundle */; };
 		B088E3831DB8C9AA00B12007 /* _TriDCommon.lua in Resources */ = {isa = PBXBuildFile; fileRef = B088E37D1DB8C9AA00B12007 /* _TriDCommon.lua */; };
 		B088E3841DB8C9AA00B12007 /* _TriDDynamicData.lua in Resources */ = {isa = PBXBuildFile; fileRef = B088E37E1DB8C9AA00B12007 /* _TriDDynamicData.lua */; };
 		B088E3851DB8C9AA00B12007 /* _TriDStartup.lua in Resources */ = {isa = PBXBuildFile; fileRef = B088E37F1DB8C9AA00B12007 /* _TriDStartup.lua */; };
@@ -22,12 +20,14 @@
 		B088E38B1DB8C9D900B12007 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B088E38A1DB8C9D900B12007 /* libxml2.2.tbd */; };
 		B088E3901DB8CA5000B12007 /* ObjcClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B088E38F1DB8CA5000B12007 /* ObjcClass.m */; };
 		B088E3B11DB9A25200B12007 /* SubAdlibAdViewAdmob.m in Sources */ = {isa = PBXBuildFile; fileRef = B088E39B1DB9A25200B12007 /* SubAdlibAdViewAdmob.m */; };
-		B088E3BC1DB9A28200B12007 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B088E3BB1DB9A28200B12007 /* GoogleMobileAds.framework */; };
-		B0B051591E1399DC00B9AF94 /* Adlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B051581E1399DC00B9AF94 /* Adlib.framework */; };
+		B0DAAF871E64176A00DBBF92 /* Adlib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B0DAAF851E64176A00DBBF92 /* Adlib.bundle */; };
+		B0DAAF9A1E64178000DBBF92 /* ALAdapterAdmob.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DAAF8F1E64178000DBBF92 /* ALAdapterAdmob.m */; };
+		B0DAAFA01E6418E800DBBF92 /* AdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DAAF9F1E6418E800DBBF92 /* AdViewController.swift */; };
+		B0DAAFAC1E64242000DBBF92 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DAAFAB1E64242000DBBF92 /* GoogleMobileAds.framework */; };
+		B0DAAFBA1E642D6B00DBBF92 /* Adlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DAAFB91E642D6B00DBBF92 /* Adlib.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B00921AE1DF52C45002C0B6C /* Adlib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adlib.framework; sourceTree = "<group>"; };
 		B088E3641DB8C97900B12007 /* AdlibSDKSwift3_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdlibSDKSwift3_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B088E3671DB8C97900B12007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B088E3691DB8C97900B12007 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,7 +35,6 @@
 		B088E36E1DB8C97900B12007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B088E3711DB8C97900B12007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B088E3731DB8C97900B12007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B088E37B1DB8C9AA00B12007 /* Adlib.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Adlib.bundle; sourceTree = "<group>"; };
 		B088E37D1DB8C9AA00B12007 /* _TriDCommon.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _TriDCommon.lua; sourceTree = "<group>"; };
 		B088E37E1DB8C9AA00B12007 /* _TriDDynamicData.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _TriDDynamicData.lua; sourceTree = "<group>"; };
 		B088E37F1DB8C9AA00B12007 /* _TriDStartup.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _TriDStartup.lua; sourceTree = "<group>"; };
@@ -47,8 +46,12 @@
 		B088E38F1DB8CA5000B12007 /* ObjcClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcClass.m; sourceTree = "<group>"; };
 		B088E39A1DB9A25200B12007 /* SubAdlibAdViewAdmob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubAdlibAdViewAdmob.h; sourceTree = "<group>"; };
 		B088E39B1DB9A25200B12007 /* SubAdlibAdViewAdmob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubAdlibAdViewAdmob.m; sourceTree = "<group>"; };
-		B088E3BB1DB9A28200B12007 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
-		B0B051581E1399DC00B9AF94 /* Adlib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adlib.framework; sourceTree = "<group>"; };
+		B0DAAF851E64176A00DBBF92 /* Adlib.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Adlib.bundle; sourceTree = "<group>"; };
+		B0DAAF8E1E64178000DBBF92 /* ALAdapterAdmob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdapterAdmob.h; sourceTree = "<group>"; };
+		B0DAAF8F1E64178000DBBF92 /* ALAdapterAdmob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAdapterAdmob.m; sourceTree = "<group>"; };
+		B0DAAF9F1E6418E800DBBF92 /* AdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdViewController.swift; sourceTree = "<group>"; };
+		B0DAAFAB1E64242000DBBF92 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		B0DAAFB91E642D6B00DBBF92 /* Adlib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adlib.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +59,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0B051591E1399DC00B9AF94 /* Adlib.framework in Frameworks */,
 				B088E38B1DB8C9D900B12007 /* libxml2.2.tbd in Frameworks */,
 				B088E3891DB8C9CE00B12007 /* libstdc++.6.0.9.tbd in Frameworks */,
-				B088E3BC1DB9A28200B12007 /* GoogleMobileAds.framework in Frameworks */,
-				B00921AF1DF52C45002C0B6C /* Adlib.framework in Frameworks */,
+				B0DAAFAC1E64242000DBBF92 /* GoogleMobileAds.framework in Frameworks */,
+				B0DAAFBA1E642D6B00DBBF92 /* Adlib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,13 +89,13 @@
 		B088E3661DB8C97900B12007 /* AdlibSDKSwift3_Sample */ = {
 			isa = PBXGroup;
 			children = (
-				B00921AE1DF52C45002C0B6C /* Adlib.framework */,
-				B088E3BB1DB9A28200B12007 /* GoogleMobileAds.framework */,
+				B0DAAFAB1E64242000DBBF92 /* GoogleMobileAds.framework */,
 				B088E3911DB9A25200B12007 /* ads */,
 				B088E38C1DB8CA2B00B12007 /* OBJC */,
 				B088E37A1DB8C9AA00B12007 /* ADLibFramework */,
 				B088E3671DB8C97900B12007 /* AppDelegate.swift */,
 				B088E3691DB8C97900B12007 /* ViewController.swift */,
+				B0DAAF9F1E6418E800DBBF92 /* AdViewController.swift */,
 				B088E36B1DB8C97900B12007 /* Main.storyboard */,
 				B088E36E1DB8C97900B12007 /* Assets.xcassets */,
 				B088E3701DB8C97900B12007 /* LaunchScreen.storyboard */,
@@ -105,8 +107,8 @@
 		B088E37A1DB8C9AA00B12007 /* ADLibFramework */ = {
 			isa = PBXGroup;
 			children = (
-				B0B051581E1399DC00B9AF94 /* Adlib.framework */,
-				B088E37B1DB8C9AA00B12007 /* Adlib.bundle */,
+				B0DAAFB91E642D6B00DBBF92 /* Adlib.framework */,
+				B0DAAF851E64176A00DBBF92 /* Adlib.bundle */,
 				B088E37C1DB8C9AA00B12007 /* Resources */,
 			);
 			path = ADLibFramework;
@@ -153,6 +155,7 @@
 		B088E3921DB9A25200B12007 /* adlib.mocoplex */ = {
 			isa = PBXGroup;
 			children = (
+				B0DAAF891E64178000DBBF92 /* ADLibAdapter */,
 				B088E3931DB9A25200B12007 /* SubAdView */,
 			);
 			path = adlib.mocoplex;
@@ -165,6 +168,15 @@
 				B088E39B1DB9A25200B12007 /* SubAdlibAdViewAdmob.m */,
 			);
 			path = SubAdView;
+			sourceTree = "<group>";
+		};
+		B0DAAF891E64178000DBBF92 /* ADLibAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				B0DAAF8E1E64178000DBBF92 /* ALAdapterAdmob.h */,
+				B0DAAF8F1E64178000DBBF92 /* ALAdapterAdmob.m */,
+			);
+			path = ADLibAdapter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,7 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B088E3821DB8C9AA00B12007 /* Adlib.bundle in Resources */,
+				B0DAAF871E64176A00DBBF92 /* Adlib.bundle in Resources */,
 				B088E3841DB8C9AA00B12007 /* _TriDDynamicData.lua in Resources */,
 				B088E3861DB8C9AA00B12007 /* json.lua in Resources */,
 				B088E3831DB8C9AA00B12007 /* _TriDCommon.lua in Resources */,
@@ -249,7 +261,9 @@
 				B088E3B11DB9A25200B12007 /* SubAdlibAdViewAdmob.m in Sources */,
 				B088E36A1DB8C97900B12007 /* ViewController.swift in Sources */,
 				B088E3901DB8CA5000B12007 /* ObjcClass.m in Sources */,
+				B0DAAFA01E6418E800DBBF92 /* AdViewController.swift in Sources */,
 				B088E3681DB8C97900B12007 /* AppDelegate.swift in Sources */,
+				B0DAAF9A1E64178000DBBF92 /* ALAdapterAdmob.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
