@@ -25,6 +25,9 @@
 //테스트광고 설정 여부
 @property (nonatomic) BOOL isTestMode; //default : NO;
 
+//하우스광고 설정 여부
+@property (nonatomic) BOOL isHouseMode; //default : NO;
+
 /**
  * 네이티브 광고 콜랙션뷰 헬퍼 클래스 생성자
  *
@@ -105,19 +108,6 @@
  */
 - (void)preconfigureCell:(UICollectionViewCell *)cell
                    forAd:(ALNativeAd *)adObject;
-
-
-/**
- * 네이티브 광고 셀을 클릭 이벤트를 처리한다.
- *
- * @param adObject 해당 셀의 광고 객체
- * @param indexPath 선택된 셀의 indexPath
- * @param controller 전면 비디오광고 뷰컨트롤러를 present하는데 사용되는 뷰컨트롤러
- * @date 2014.12.18
- */
-- (void)didSelectAdCellForAd:(ALNativeAd *)adObject
-                 atIndexPath:(NSIndexPath *)path
-    presentingViewController:(UIViewController *)controller;
 
 /**
  * 네이티브 광고 메인 컨텐츠 이미지 뷰의 리사이즈 모드를 설정

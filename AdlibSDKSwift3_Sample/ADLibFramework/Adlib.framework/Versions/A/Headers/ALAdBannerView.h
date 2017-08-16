@@ -62,7 +62,7 @@ typedef NS_ENUM(NSInteger, AL_ADVIEW_VERTICAL_ALIGN) {
 @property (nonatomic) BOOL repeatLoop;
 
 // 모든 스케쥴 광고가 실패한 이후 다음 루프까지의 대기 시간
-// 기본 설정 값 20초 (설정 가능 범위 값 1~120초)
+// 기본 설정 값 10초 (설정 가능 범위 값 1~120초)
 @property (nonatomic) NSUInteger repeatLoopWaitTime;
 
 // 미디에이션 플랫폼 모두 실패한 경우에 대한 백필뷰
@@ -70,6 +70,11 @@ typedef NS_ENUM(NSInteger, AL_ADVIEW_VERTICAL_ALIGN) {
 
 
 - (void)setKey:(NSString *)key forPlatform:(ALMEDIATION_PLATFORM)platform;
+
+
+//플랫폼 광고에 필요한 부가정보 세팅
+- (void)setUserInfo:(NSDictionary *)info forPlatform:(ALMEDIATION_PLATFORM)platform;
+- (NSDictionary *)getUserInfoForPlatform:(ALMEDIATION_PLATFORM)platform;
 
 /**
  *  배너 광고를 요청한다.
@@ -79,7 +84,7 @@ typedef NS_ENUM(NSInteger, AL_ADVIEW_VERTICAL_ALIGN) {
  *  @param delegate 광고 요청 및 수신 상태에 대한 델리게이트
  */
 - (BOOL)startAdViewWithKey:(NSString *)mediationKey
-        rootViewController:(__weak UIViewController *)rootViewController
+        rootViewController:(UIViewController *)rootViewController
                 adDelegate:(id<ALAdBannerViewDelegate>)delegate;
 
 /**

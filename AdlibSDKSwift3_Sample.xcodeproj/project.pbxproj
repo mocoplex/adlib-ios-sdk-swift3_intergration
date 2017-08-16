@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B03ABEF21F441ED00039DAF5 /* Adlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03ABEF11F441ED00039DAF5 /* Adlib.framework */; };
 		B088E3681DB8C97900B12007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B088E3671DB8C97900B12007 /* AppDelegate.swift */; };
 		B088E36A1DB8C97900B12007 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B088E3691DB8C97900B12007 /* ViewController.swift */; };
 		B088E36D1DB8C97900B12007 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B088E36B1DB8C97900B12007 /* Main.storyboard */; };
@@ -24,10 +25,10 @@
 		B0DAAF9A1E64178000DBBF92 /* ALAdapterAdmob.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DAAF8F1E64178000DBBF92 /* ALAdapterAdmob.m */; };
 		B0DAAFA01E6418E800DBBF92 /* AdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DAAF9F1E6418E800DBBF92 /* AdViewController.swift */; };
 		B0DAAFAC1E64242000DBBF92 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DAAFAB1E64242000DBBF92 /* GoogleMobileAds.framework */; };
-		B0DAAFBA1E642D6B00DBBF92 /* Adlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DAAFB91E642D6B00DBBF92 /* Adlib.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B03ABEF11F441ED00039DAF5 /* Adlib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adlib.framework; sourceTree = "<group>"; };
 		B088E3641DB8C97900B12007 /* AdlibSDKSwift3_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdlibSDKSwift3_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B088E3671DB8C97900B12007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B088E3691DB8C97900B12007 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,7 +52,6 @@
 		B0DAAF8F1E64178000DBBF92 /* ALAdapterAdmob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAdapterAdmob.m; sourceTree = "<group>"; };
 		B0DAAF9F1E6418E800DBBF92 /* AdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdViewController.swift; sourceTree = "<group>"; };
 		B0DAAFAB1E64242000DBBF92 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
-		B0DAAFB91E642D6B00DBBF92 /* Adlib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adlib.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 				B088E38B1DB8C9D900B12007 /* libxml2.2.tbd in Frameworks */,
 				B088E3891DB8C9CE00B12007 /* libstdc++.6.0.9.tbd in Frameworks */,
 				B0DAAFAC1E64242000DBBF92 /* GoogleMobileAds.framework in Frameworks */,
-				B0DAAFBA1E642D6B00DBBF92 /* Adlib.framework in Frameworks */,
+				B03ABEF21F441ED00039DAF5 /* Adlib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,7 +107,7 @@
 		B088E37A1DB8C9AA00B12007 /* ADLibFramework */ = {
 			isa = PBXGroup;
 			children = (
-				B0DAAFB91E642D6B00DBBF92 /* Adlib.framework */,
+				B03ABEF11F441ED00039DAF5 /* Adlib.framework */,
 				B0DAAF851E64176A00DBBF92 /* Adlib.bundle */,
 				B088E37C1DB8C9AA00B12007 /* Resources */,
 			);

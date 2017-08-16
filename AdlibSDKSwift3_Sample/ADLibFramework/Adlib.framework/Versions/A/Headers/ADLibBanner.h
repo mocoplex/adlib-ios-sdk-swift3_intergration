@@ -40,8 +40,13 @@
 // (Width x Height) 동적 소재사이즈 광고
 #import <Adlib/ALDynamicBanner.h>
 
+#import <Adlib/ALDynamicBannerView.h>
+#import <Adlib/ALDynamicBannerController.h>
 
 // (320 x 50) 규격 소재사이즈 광고
 #import <Adlib/ALAdlibBannerView.h>
+
+//애드립 네트워크 배너
+#import <Adlib/ALNetworkAd.h>
 
 #endif /* ADLibBanner_h */

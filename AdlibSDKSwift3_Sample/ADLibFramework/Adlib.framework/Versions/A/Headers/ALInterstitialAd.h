@@ -58,7 +58,7 @@
  *
  *  @param rootViewController 전면광고 뷰컨트롤러를 노출한 루트뷰 컨트롤러
  */
-- (instancetype)initWithRootViewController:(__weak UIViewController *)rootViewController;
+- (instancetype)initWithRootViewController:(UIViewController *)rootViewController;
 
 
 /**
@@ -67,6 +67,10 @@
  */
 - (void)setKey:(NSString *)key forPlatform:(ALMEDIATION_PLATFORM)platform;
 
+
+//플랫폼 광고에 필요한 부가정보 세팅
+- (void)setUserInfo:(NSDictionary *)info forPlatform:(ALMEDIATION_PLATFORM)platform;
+- (NSDictionary *)getUserInfoForPlatform:(ALMEDIATION_PLATFORM)platform;
 
 /**
  *  젼면광고를 요청한다.
